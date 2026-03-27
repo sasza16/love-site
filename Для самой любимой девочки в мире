@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Для тебя ❤️</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 5px #d6336c;
+            animation: glow 2s infinite alternate;
+        }
+
+        .words {
+            font-size: 1.5em;
+            max-width: 900px;
+            text-align: center;
+            line-height: 2;
+        }
+
+        .word {
+            display: inline-block;
+            margin: 5px;
+            font-weight: bold;
+            color: #ff2e63;
+            animation: float 4s infinite;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 2px 2px 5px #d6336c; }
+            to { text-shadow: 2px 2px 20px #ff2e63; }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); opacity: 1; }
+            50% { transform: translateY(-10px); opacity: 0.8; }
+            100% { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Ты моя любовь! ❤️</h1>
+    <div class="words">
+        <span class="word">Милая</span>
+        <span class="word">Прекрасная</span>
+        <span class="word">Нежная</span>
+        <span class="word">Очаровательная</span>
+        <span class="word">Умная</span>
+        <span class="word">Добрая</span>
+        <span class="word">Заботливая</span>
+        <span class="word">Прекраснейшая</span>
+        <span class="word">Сказочная</span>
+        <span class="word">Восхитительная</span>
+        <span class="word">Любимая</span>
+        <span class="word">Незабываемая</span>
+        <span class="word">Чудесная</span>
+        <span class="word">Божественная</span>
+        <span class="word">Прелестная</span>
+        <span class="word">Светлая</span>
+        <span class="word">Сердечная</span>
+        <span class="word">Блестящая</span>
+        <span class="word">Ласковая</span>
+        <span class="word">Звёздная</span>
+        <span class="word">Неповторимая</span>
+        <span class="word">Сокровище</span>
+        <span class="word">Сердце мое</span>
+        <span class="word">Радость моя</span>
+        <span class="word">Моя королева</span>
+        <span class="word">Моя красавица</span>
+        <span class="word">Моя радость</span>
+        <span class="word">Моя любимка</span>
+        <span class="word">Моя принцесса</span>
+        <span class="word">Солнце мое</span>
+        <span class="word">Мое счастье</span>
+        <span class="word">Моя дорогая</span>
+        <span class="word">Моя любимая</span>
+        <span class="word">Моя сладкая</span>
+        <span class="word">Моя нежная</span>
+        <span class="word">Моя единственная</span>
+        <span class="word">Моя мечта</span>
+        <span class="word">Мое сердце</span>
+        <span class="word">Моя душа</span>
+        <span class="word">Моя радужная звезда</span>
+        <span class="word">Моя ангел</span>
+        <span class="word">Моя королева сердец</span>
+        <span class="word">Моя прекрасная</span>
+        <span class="word">Моя драгоценность</span>
+        <span class="word">Моя богиня</span>
+        <span class="word">Моя нежность</span>
+        <span class="word">Моя радость жизни</span>
+    </div>
+</body>
+</html>
